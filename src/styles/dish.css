@@ -1,0 +1,14 @@
+h4{
+    color: #f30c0c;
+}
+
+.dish{
+    width: 185px;
+    height: 220px;
+    border-radius: 5px;
+    background-color: #29a39d;
+}
+
+ul{
+    list-style-type: none;
+}
