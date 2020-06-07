@@ -30,7 +30,7 @@ const EditUserForm = props => {
       <label>Apellido</label>
       <input type="text" name="username" value={user.username} onChange={handleInputChange} />
       <label>Telefono</label>
-      <input type="text" name="username" onChange={handleInputChange} />
+      <input type="text" name="phoneNumber" value={user.phoneNumber} onChange={handleInputChange} />
       <button>Modificar</button>
       <button onClick={() => props.setEditing(false)} className="button muted-button">
         Cancelar
